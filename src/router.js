@@ -9,6 +9,7 @@ import NotFound from './pages/NotFound.vue';
 
 
 const router = createRouter({
+    base: publicPath,
     history: createWebHistory(),
     routes: [{
             path: '/',
