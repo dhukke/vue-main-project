@@ -9,12 +9,12 @@ import NotFound from './pages/NotFound.vue';
 
 import { publicPath } from '../vue.config';
 
-
+console.log(publicPath);
 const router = createRouter({
     base: publicPath,
     history: createWebHistory(),
     routes: [{
-            path: '/',
+            path: publicPath,
             redirect: '/coaches'
         },
         {
